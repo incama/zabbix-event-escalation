@@ -1,10 +1,10 @@
 # Zabbix Event Severity Escalation
 
-A Python script for automated Zabbix event severity management that escalates events to DISASTER level while preventing duplicate escalations.
+A Python script for automated Zabbix event severity management that escalates events to DISASTER level while preserving comments.
 
 ## Overview
 
-This tool solves the problem of managing event escalations in Zabbix when using multiple triggers. Instead of creating separate triggers for different severity levels, it uses a single trigger and programmatically escalates the severity through the Zabbix API.
+This tool solves the problem of managing event escalations in Zabbix when using multiple triggers. Instead of creating separate triggers for different severity levels, it uses a single trigger and programmatically escalates the severity through the Zabbix API and thus preserving comments/messages prior the escalation.
 
 ## Prerequisites
 
