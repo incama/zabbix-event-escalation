@@ -47,3 +47,5 @@ The script includes comprehensive error handling and will exit with appropriate 
 ## Security
 
 Configuration is managed through a secure external config file with API token authentication.
+
+## Wiki (wip)
